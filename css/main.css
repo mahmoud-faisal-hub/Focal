@@ -464,7 +464,7 @@ button:hover {
 .contact-me .contact-form textarea {
     width: 100%;
     background-color: #4b5557;
-    color: #FFF;
+    color: #fff;
     padding: 15px;
     border: 0;
     margin-bottom: 35px;
@@ -473,7 +473,7 @@ button:hover {
 .contact-me .contact-form input[type="submit"] {
     width: 150px;
     font-weight: bold;
-    background-color: #191E21;
+    background-color: #191e21;
 }
 
 .contact-me .contact-form input[type="submit"]:hover {
@@ -492,9 +492,13 @@ button:hover {
 .footer {
     background-color: #191e21;
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+    color: #394143;
 }
 
-.footer p {
+.footer small {
     margin-top: 0;
     color: #495153;
 }
@@ -504,8 +508,27 @@ button:hover {
     margin-bottom: 0;
 }
 
+.footer .footer-icons {
+    padding: 0;
+}
+
 .footer .footer-icons li {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 33px;
+    height: 33px;
+    background-color: #4a5456;
+    border-radius: 50%;
+    margin: 2px;
+}
+
+.footer .footer-icons li:hover a i {
+    color: #fff !important;
+}
+
+.footer .footer-icons li a i {
+    color: #191e21;
 }
 
 /* End Footer */
