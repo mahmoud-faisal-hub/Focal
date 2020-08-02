@@ -426,6 +426,7 @@ button:hover {
     background-color: #252f31;
     padding: 50px 0;
     overflow: hidden;
+    color: #fff;
 }
 
 .contact-me .contact-info,
@@ -442,6 +443,46 @@ button:hover {
 
 .contact-me .contact-info p {
     color: #868789;
+    font-size: 16px;
+}
+
+.contact-me .contact-info p strong {
+    color: #fff;
+}
+
+.contact-me .contact-form {
+    margin-top: 75px;
+    padding-left: 50px;
+}
+
+.contact-me .contact-form label {
+    display: block;
+    padding-bottom: 10px;
+}
+
+.contact-me .contact-form input,
+.contact-me .contact-form textarea {
+    width: 100%;
+    background-color: #4b5557;
+    color: #FFF;
+    padding: 15px;
+    border: 0;
+    margin-bottom: 35px;
+}
+
+.contact-me .contact-form input[type="submit"] {
+    width: 150px;
+    font-weight: bold;
+    background-color: #191E21;
+}
+
+.contact-me .contact-form input[type="submit"]:hover {
+    color: #2ecc71;
+    cursor: pointer;
+}
+
+.contact-me .contact-form textarea {
+    height: 150px;
 }
 
 /* End Contact Me */
