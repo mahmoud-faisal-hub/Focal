@@ -29,10 +29,18 @@ h3 {
     font-weight: 500;
 }
 
+h4 {
+    font-size: 20px;
+}
+
 p {
     color: #919191;
     font-size: 18px;
     line-height: 30px;
+}
+
+hr {
+    border-top: 1px solid #CCC;
 }
 
 i {
@@ -180,6 +188,7 @@ button:hover {
 .about-me {
     background-color: #F2F2F2;
     overflow: hidden;
+    margin-top: 30px;
 }
 
 .about-me .image {
@@ -251,10 +260,6 @@ button:hover {
     margin-top: 75px;
 }
 
-.my-skills .my-skills-progress h4 {
-    font-size: 20px;
-}
-
 .my-skills .my-skills-progress .progress-panel {
     width: 100%;
     background-color: #F2F2F1;
@@ -297,6 +302,33 @@ button:hover {
 .my-experience {
     overflow: hidden;
     padding-bottom: 50px;
+}
+
+.my-experience .experience-title:first-child {
+    margin-top: 105px;
+}
+
+.my-experience .experience-title {
+    margin: 50px 0 5px;
+}
+
+.my-experience .experience-paragraph {
+    margin: 0 0 5px;
+}
+
+.my-experience .experience-paragraph span {
+    font-weight: bold;
+}
+
+.my-experience .experience-rate {
+    display: inline-block;
+    font-size: smaller;
+    font-weight: bold;
+    background-color: #2ECC71;
+    padding: 5px;
+    color: #FFF;
+    border-radius: 2px;
+    margin-bottom: 5px;
 }
 
 .my-experience .my-education-content,
