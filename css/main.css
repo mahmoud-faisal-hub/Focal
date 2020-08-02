@@ -395,6 +395,10 @@ button:hover {
     padding: 30px 0;
 }
 
+.portofolio p {
+    margin-bottom: 35px;
+}
+
 .portofolio .portofolio-work {
     overflow: hidden;
 }
@@ -408,6 +412,10 @@ button:hover {
 
 .portofolio .portofolio-work .image img {
     width: 100%;
+}
+
+.portofolio .portofolio-work .image img:hover {
+    cursor: pointer;
 }
 
 /* End Portofolio */
