@@ -1,0 +1,400 @@
+/* Start Main Rules */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #566366;
+}
+
+h2{
+    font-size: 30px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #566366;
+    margin-bottom: 50px;
+}
+
+h3 {
+    font-size: 22px;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+p {
+    color: #919191;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+i {
+    color: #20D06E;
+}
+
+button {
+    background: none;
+    font-weight: bolder;
+    border: 2px solid #2ECC71;
+    color: #2ECC71;
+    padding: 20px 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+button:hover {
+    color: #FFF;
+    background-color: #2ECC71;
+    cursor: pointer;
+}
+
+.clearFix {
+    clear: both;
+}
+
+/* End Main Rules */
+
+/* Start Header */
+
+.header .slider{
+    background-color: #CCC;
+    height: 700px;
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.header .slider .intro {
+    text-align: center;
+}
+
+.header .slider .intro h2 {
+    padding: 55px 0;
+    font-size: 60px;
+    color: #FFF;
+    border-top: 3px solid #FFF;
+    border-bottom: 3px solid #FFF;
+}
+
+.header .slider .intro button {
+    border-color: #FFF;
+    color: #FFF;
+}
+
+.header .slider .intro button:hover {
+    color: #2ECC71;
+    cursor: pointer;
+    background-color: #FFF;
+}
+
+.header .navbar {
+    background-color: #252F31;
+    overflow: hidden;
+}
+
+.header .navbar .logo {
+    float: left;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.header .navbar .logo div::before {
+    content: "F";
+    background-color: #4E585A;
+    padding: 3px 10px;
+    margin-right: 10px
+}
+
+.header .navbar .logo div span {
+    color: #31C273;
+}
+
+.header .navbar ul {
+    list-style: none;
+    padding-left: 0;
+    float: right;
+    overflow: hidden;
+}
+
+.header .navbar ul li {
+    float: left;
+    padding: 10px;
+}
+
+.header .navbar ul li a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.header .navbar ul li a.active,
+.header .navbar ul li a:hover {
+    color: #2ECC71;
+    text-decoration: none;
+}
+
+/* End Header */
+
+/* Start Features */
+
+.features {
+    overflow: hidden;
+}
+
+.features .feat {
+    float: left;
+    width: 33.33333333%;
+    padding-top: 50px;
+    height: 220px;
+    overflow-y: auto;
+}
+
+.features .feat h2 {
+    text-transform: uppercase;
+}
+
+.features .feat p {
+    padding-right: 10px;
+}
+
+/* End Features */
+
+/* Start About Me */
+
+.about-me {
+    background-color: #F2F2F2;
+    overflow: hidden;
+}
+
+.about-me .image {
+    float: left;
+    width: 40%;
+}
+
+.about-me .image img {
+    width: 100%;
+}
+
+.about-me .info {
+    float: left; 
+    width: 60%;
+    box-sizing: border-box;
+    padding: 40px 0 0 50px;
+}
+
+.about-me .info .skills {
+    margin-top: 50px;
+}
+
+.about-me .info .skills .skill {
+    float: left;
+    width: 50%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.about-me .info .skills .skill i {
+    float: left;
+    font-size: 40px;
+}
+
+.about-me .info .skills .skill .skill-content {
+    margin-left: 60px;
+    margin-top: -15px;
+}
+
+.about-me .info .skills .skill .skill-content h3 {
+    margin-bottom: 16px;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.about-me .info .skills .skill .skill-content p {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+/* End About Me */
+
+/* Start My Skills */
+
+.my-skills {
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+.my-skills .my-skills-content,
+.my-skills .my-skills-progress {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 60px 30px 0 0;
+}
+
+.my-skills .my-skills-progress {
+    margin-top: 75px;
+}
+
+.my-skills .my-skills-progress h4 {
+    font-size: 20px;
+}
+
+.my-skills .my-skills-progress .progress-panel {
+    width: 100%;
+    background-color: #F2F2F1;
+    height: 30px;
+}
+
+.my-skills .my-skills-progress .progress-panel span {
+    width: 100%;
+    background-color: #2ECC71;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    direction: rtl;
+    padding-right: 10px;
+    box-sizing: border-box;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFF;
+}
+
+/* End My Skills */
+
+/* Start Resume */
+
+.resume {
+    padding:80px 0;
+    background-color: #F2F2F2;
+    text-align: center;
+}
+
+.resume h2 {
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+
+/* End Resume */
+
+/* Start My Experience */
+
+.my-experience {
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+.my-experience .my-education-content,
+.my-experience .my-education-experience,
+.my-experience .my-work-content,
+.my-experience .my-work-experience {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 60px 15px 0 0;
+}
+
+/* End My Experience */
+
+/* Start Testimonials */
+
+.testimonials {
+    padding:80px 0;
+    background-color: #F2F2F2;
+    text-align: center;
+}
+
+.testimonials h5 {
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+
+/* End Testimonials */
+
+/* Start Portofolio */
+
+.portofolio {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.portofolio .portofolio-work {
+    overflow: hidden;
+}
+
+.portofolio .portofolio-work .image {
+    width: 33.3333333%;
+    box-sizing: border-box;
+    float: left;
+    padding: 20px
+}
+
+.portofolio .portofolio-work .image img {
+    width: 100%;
+}
+
+/* End Portofolio */
+
+/* Start Contact Me */
+
+.contact-me {
+    background-color: #252F31;
+    padding: 50px 0;
+    overflow: hidden;
+}
+
+.contact-me .contact-info, 
+.contact-me .contact-form {
+    float: left;
+    width: 50%;
+    padding-right: 30px;
+    box-sizing: border-box;
+} 
+
+.contact-me .contact-info h2 {
+    color: #FFF;
+}
+
+.contact-me .contact-info p {
+    color: #868789;
+}
+
+/* End Contact Me */
+
+/* Start Footer */
+
+.footer {
+    background-color: #191E21;
+    text-align: center;
+}
+
+.footer p {
+    margin-top: 0;
+    color: #495153;
+}
+
+.footer .footer-icons {
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.footer .footer-icons li {
+    display: inline-block;
+}
+
+/* End Footer */
