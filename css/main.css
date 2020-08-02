@@ -1,7 +1,7 @@
 /* Start Main Rules */
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -9,11 +9,16 @@ body {
     margin: auto;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: #566366;
 }
 
-h2{
+h2 {
     font-size: 30px;
     line-height: 24px;
     font-weight: 700;
@@ -40,26 +45,26 @@ p {
 }
 
 hr {
-    border-top: 1px solid #CCC;
+    border-top: 1px solid #ccc;
 }
 
 i {
-    color: #20D06E;
+    color: #20d06e;
 }
 
 button {
     background: none;
     font-weight: bolder;
-    border: 2px solid #2ECC71;
-    color: #2ECC71;
+    border: 2px solid #2ecc71;
+    color: #2ecc71;
     padding: 20px 30px;
     font-size: 20px;
     text-transform: uppercase;
 }
 
 button:hover {
-    color: #FFF;
-    background-color: #2ECC71;
+    color: #fff;
+    background-color: #2ecc71;
     cursor: pointer;
 }
 
@@ -71,14 +76,14 @@ button:hover {
 
 /* Start Header */
 
-.header .slider{
-    background-color: #CCC;
+.header .slider {
+    background-color: #ccc;
     height: 700px;
-    background-image: url('../images/banner.jpg');
+    background-image: url("../images/banner.jpg");
     background-size: cover;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
 }
 
 .header .slider .intro {
@@ -88,30 +93,30 @@ button:hover {
 .header .slider .intro h2 {
     padding: 55px 0;
     font-size: 60px;
-    color: #FFF;
-    border-top: 3px solid #FFF;
-    border-bottom: 3px solid #FFF;
+    color: #fff;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
 }
 
 .header .slider .intro button {
-    border-color: #FFF;
-    color: #FFF;
+    border-color: #fff;
+    color: #fff;
 }
 
 .header .slider .intro button:hover {
-    color: #2ECC71;
+    color: #2ecc71;
     cursor: pointer;
-    background-color: #FFF;
+    background-color: #fff;
 }
 
 .header .navbar {
-    background-color: #252F31;
+    background-color: #252f31;
     overflow: hidden;
 }
 
 .header .navbar .logo {
     float: left;
-    color: #FFF;
+    color: #fff;
     text-decoration: none;
     font-weight: 700;
     line-height: 40px;
@@ -120,18 +125,18 @@ button:hover {
     height: 70px;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
 }
 
 .header .navbar .logo div::before {
     content: "F";
-    background-color: #4E585A;
+    background-color: #4e585a;
     padding: 3px 10px;
-    margin-right: 10px
+    margin-right: 10px;
 }
 
 .header .navbar .logo div span {
-    color: #31C273;
+    color: #31c273;
 }
 
 .header .navbar ul {
@@ -147,13 +152,13 @@ button:hover {
 }
 
 .header .navbar ul li a {
-    color: #FFF;
+    color: #fff;
     text-decoration: none;
 }
 
 .header .navbar ul li a.active,
 .header .navbar ul li a:hover {
-    color: #2ECC71;
+    color: #2ecc71;
     text-decoration: none;
 }
 
@@ -186,7 +191,7 @@ button:hover {
 /* Start About Me */
 
 .about-me {
-    background-color: #F2F2F2;
+    background-color: #f2f2f2;
     overflow: hidden;
     margin-top: 30px;
 }
@@ -201,7 +206,7 @@ button:hover {
 }
 
 .about-me .info {
-    float: left; 
+    float: left;
     width: 60%;
     box-sizing: border-box;
     padding: 40px 0 0 50px;
@@ -262,13 +267,13 @@ button:hover {
 
 .my-skills .my-skills-progress .progress-panel {
     width: 100%;
-    background-color: #F2F2F1;
+    background-color: #f2f2f1;
     height: 30px;
 }
 
 .my-skills .my-skills-progress .progress-panel span {
     width: 100%;
-    background-color: #2ECC71;
+    background-color: #2ecc71;
     height: 100%;
     display: flex;
     align-items: center;
@@ -277,7 +282,7 @@ button:hover {
     box-sizing: border-box;
     font-weight: 700;
     font-size: 18px;
-    color: #FFF;
+    color: #fff;
 }
 
 /* End My Skills */
@@ -285,8 +290,8 @@ button:hover {
 /* Start Resume */
 
 .resume {
-    padding:80px 0;
-    background-color: #F2F2F2;
+    padding: 80px 0;
+    background-color: #f2f2f2;
     text-align: center;
 }
 
@@ -324,9 +329,9 @@ button:hover {
     display: inline-block;
     font-size: smaller;
     font-weight: bold;
-    background-color: #2ECC71;
+    background-color: #2ecc71;
     padding: 5px;
-    color: #FFF;
+    color: #fff;
     border-radius: 2px;
     margin-bottom: 5px;
 }
@@ -346,14 +351,39 @@ button:hover {
 /* Start Testimonials */
 
 .testimonials {
-    padding:80px 0;
-    background-color: #F2F2F2;
+    padding: 80px 0;
+    background-color: #f2f2f2;
     text-align: center;
+}
+
+.testimonials p {
+    font-style: italic;
 }
 
 .testimonials h5 {
     margin-top: 0;
     margin-bottom: 35px;
+    text-transform: uppercase;
+}
+
+.testimonials ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.testimonials ul li {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border: 2px solid #2ecc71;
+    border-radius: 50%;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.testimonials ul li.active {
+    background-color: #2ecc71;
 }
 
 /* End Testimonials */
@@ -373,7 +403,7 @@ button:hover {
     width: 33.3333333%;
     box-sizing: border-box;
     float: left;
-    padding: 20px
+    padding: 20px;
 }
 
 .portofolio .portofolio-work .image img {
@@ -385,21 +415,21 @@ button:hover {
 /* Start Contact Me */
 
 .contact-me {
-    background-color: #252F31;
+    background-color: #252f31;
     padding: 50px 0;
     overflow: hidden;
 }
 
-.contact-me .contact-info, 
+.contact-me .contact-info,
 .contact-me .contact-form {
     float: left;
     width: 50%;
     padding-right: 30px;
     box-sizing: border-box;
-} 
+}
 
 .contact-me .contact-info h2 {
-    color: #FFF;
+    color: #fff;
 }
 
 .contact-me .contact-info p {
@@ -411,7 +441,7 @@ button:hover {
 /* Start Footer */
 
 .footer {
-    background-color: #191E21;
+    background-color: #191e21;
     text-align: center;
 }
 
